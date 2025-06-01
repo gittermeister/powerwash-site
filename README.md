@@ -1,12 +1,58 @@
-# React + Vite
+# A-1 Spotless Power Washing Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a modern, responsive website for A-1 Spotless Inc., a professional power washing company serving residential, commercial, and industrial clients in New Jersey and the Tri-State area.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Modern, clean design with responsive layout
+- Interactive navigation with dropdown menus
+- Testimonials carousel
+- Contact form with validation
+- Service showcase sections
+- Call-to-action components
 
-## Expanding the ESLint configuration
+## Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- TailwindCSS
+- Vite
+- PostCSS
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository
+```
+git clone https://github.com/yourusername/powerwash-site.git
+cd powerwash-site
+```
+
+2. Install dependencies
+```
+npm install
+```
+
+3. Start the development server
+```
+npm run dev
+```
+
+4. Open your browser and navigate to `http://localhost:5173`
+
+## Building for Production
+
+```
+npm run build
+```
+
+The built files will be in the `dist` directory.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.

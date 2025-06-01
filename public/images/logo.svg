@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" fill="none">
+  <path d="M30 10L50 50H10L30 10Z" fill="#1a73e8"/>
+  <path d="M30 20L40 45H20L30 20Z" fill="#ffffff"/>
+  <text x="60" y="35" font-family="Arial" font-weight="bold" font-size="24" fill="#1a73e8">A-1 Spotless</text>
+  <text x="60" y="50" font-family="Arial" font-size="12" fill="#202124">Power Washing</text>
+</svg> 
