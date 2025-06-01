@@ -1,21 +1,26 @@
+import { Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Testimonials from './components/Testimonials';
-import Contact from './components/Contact';
-import CallToAction from './components/CallToAction';
 import Footer from './components/Footer';
+import HomePage from './pages/HomePage';
+import AboutPage from './pages/AboutPage';
+import TestimonialsPage from './pages/TestimonialsPage';
+import ContactPage from './pages/ContactPage';
+import SpecialOffersPage from './pages/SpecialOffersPage';
+import RoofCleaningPage from './pages/services/RoofCleaningPage';
 
 function App() {
   return (
     <div className="flex flex-col min-h-screen">
       <Header />
       <main className="flex-grow">
-        <Hero />
-        <Services />
-        <Testimonials />
-        <Contact />
-        <CallToAction />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/testimonials" element={<TestimonialsPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+          <Route path="/special-offers" element={<SpecialOffersPage />} />
+          <Route path="/services/roof-cleaning" element={<RoofCleaningPage />} />
+        </Routes>
       </main>
       <Footer />
     </div>
