@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const CallToAction = () => {
   return (
     <section className="bg-secondary py-16">
@@ -16,9 +18,9 @@ const CallToAction = () => {
               </svg>
               (908) 647-9274
             </a>
-            <a href="/contact" className="btn border-2 border-white text-white hover:bg-white/10 font-bold">
+            <Link to="/contact" className="btn border-2 border-white text-white hover:bg-white/10 font-bold">
               Request a Quote
-            </a>
+            </Link>
           </div>
         </div>
       </div>

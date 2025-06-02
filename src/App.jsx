@@ -7,6 +7,8 @@ import TestimonialsPage from './pages/TestimonialsPage';
 import ContactPage from './pages/ContactPage';
 import SpecialOffersPage from './pages/SpecialOffersPage';
 import RoofCleaningPage from './pages/services/RoofCleaningPage';
+import GutterCleaningPage from './pages/services/GutterCleaningPage';
+import VinylSidingPage from './pages/services/VinylSidingPage';
 
 function App() {
   return (
@@ -20,6 +22,8 @@ function App() {
           <Route path="/contact" element={<ContactPage />} />
           <Route path="/special-offers" element={<SpecialOffersPage />} />
           <Route path="/services/roof-cleaning" element={<RoofCleaningPage />} />
+          <Route path="/services/gutter-cleaning" element={<GutterCleaningPage />} />
+          <Route path="/services/vinyl-siding" element={<VinylSidingPage />} />
         </Routes>
       </main>
       <Footer />

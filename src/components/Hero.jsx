@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Hero = () => {
   return (
     <section className="relative bg-gradient-to-r from-primary to-secondary text-white">
@@ -23,12 +25,12 @@ const Hero = () => {
             Residential, Commercial & Industrial cleaning services in New Jersey and the Tri-State area since 1989.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="/contact" className="btn bg-white text-primary hover:bg-white/90 font-bold">
+            <Link to="/contact" className="btn bg-white text-primary hover:bg-white/90 font-bold">
               Get a Free Estimate
-            </a>
-            <a href="/services" className="btn border-2 border-white text-white hover:bg-white/10 font-bold">
+            </Link>
+            <Link to="/services/roof-cleaning" className="btn border-2 border-white text-white hover:bg-white/10 font-bold">
               Explore Our Services
-            </a>
+            </Link>
           </div>
           
           {/* Trusted Since Badge */}

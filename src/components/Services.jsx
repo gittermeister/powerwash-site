@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Services = () => {
   const services = [
     {
@@ -20,7 +22,7 @@ const Services = () => {
         'Driveway Cleaning',
         'Sidewalk Cleaning',
       ],
-      link: '/residential-services',
+      link: '/services/roof-cleaning',
     },
     {
       id: 2,
@@ -37,7 +39,7 @@ const Services = () => {
         'Graffiti Removal',
         'Drive Thru & Dumpster Cleaning',
       ],
-      link: '/commercial-services',
+      link: '/services/exterior-building-cleaning',
     },
     {
       id: 3,
@@ -54,7 +56,7 @@ const Services = () => {
         'Handyman Services',
         'Snow Removal',
       ],
-      link: '/property-management',
+      link: '/contact',
     },
   ];
 
@@ -89,7 +91,7 @@ const Services = () => {
                     </li>
                   ))}
                 </ul>
-                <a href={service.link} className="btn btn-primary w-full text-center">Learn More</a>
+                <Link to={service.link} className="btn btn-primary w-full text-center">Learn More</Link>
               </div>
             </div>
           ))}
